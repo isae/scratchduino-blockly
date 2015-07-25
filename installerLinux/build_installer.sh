@@ -36,6 +36,7 @@ cp -vr ../views ./build/tmp/
 cp -vr ../app.js ./build/tmp/
 cp -vr ../package.json ./build/tmp/
 cp -vr ./run.sh ./build/tmp/
+cp -vr ./ScratchDuino-Blockly.desktop ./build/tmp/
 rsync  -av --progress  --exclude-from=rsync-exclude.txt ../public ./build/tmp
 cd ./build
 mv ./tmp ./ScratchDuino-Blockly_$1

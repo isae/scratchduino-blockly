@@ -37,12 +37,13 @@ build.properties
 junit*.properties
 
 #Custom directives
-node_modules/  
+node_modules/*  
 *.exe
 !installerWin/files/x64/node.exe
 !installerWin/files/x86/node.exe
 installerMac/build
 installerMac/*.dmg
 installerLinux/build
+installerLinux/ScratchDuino-Blockly*
 installerLinux/*.tar.gz
 *.DS_Store
