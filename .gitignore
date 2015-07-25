@@ -45,5 +45,6 @@ installerMac/build
 installerMac/*.dmg
 installerLinux/build
 installerLinux/ScratchDuino-Blockly*
+!installerLinux/ScratchDuino-Blockly.desktop
 installerLinux/*.tar.gz
 *.DS_Store

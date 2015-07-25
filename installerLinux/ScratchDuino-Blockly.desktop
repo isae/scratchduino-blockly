@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=ScratchDuino-Blockly
+Exec=run.sh
+Icon=public/favicon_new.ico
+Terminal=false
+Categories=Education;Programming;Blockly;
